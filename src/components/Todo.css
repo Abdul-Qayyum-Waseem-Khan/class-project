@@ -1,0 +1,35 @@
+.complete-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 0.25fr 0.25fr;
+  width: 350px;
+  margin-top: 10px;
+}
+.complete-list button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+}
+.check-btn {
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete-btn {
+  background-color: red;
+  color: white;
+}
+.checked span {
+  text-decoration: line-through;
+  color: grey;
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
