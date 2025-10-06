@@ -28,7 +28,7 @@ export default function Weather() {
   };
   return (
     <div>
-      <h1>Weather APP</h1>
+      <h1 style={{ color: "red" }}>Weather APP</h1>
       <input type="text" value={city} onChange={handleCityName} />
       <button onClick={handleFetchWeather}>Get Weather</button>
       <div>{error}</div>
